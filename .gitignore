@@ -1,0 +1,19 @@
+# Build files
+*.o
+*.out
+*.exe
+
+# VS Code
+.vscode/
+
+# CMake
+build/
+cmake-build-*/
+
+# Debug
+*.dSYM/
+core
+
+# OS
+.DS_Store
+Thumbs.db
