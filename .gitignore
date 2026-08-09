@@ -1,18 +1,12 @@
-# Build files
+# Build output
+.debug/
+build/
 *.o
 *.out
 *.exe
 
 # VS Code
 .vscode/
-
-# CMake
-build/
-cmake-build-*/
-
-# Debug
-*.dSYM/
-core
 
 # OS
 .DS_Store
