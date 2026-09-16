@@ -31,8 +31,6 @@ public:
                 left++;
                 windowSize = right - left + 1;
             }
-
-            windowSize = right - left + 1;
             ans = max(ans, windowSize);
         }
         return ans;
